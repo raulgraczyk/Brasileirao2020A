@@ -2,7 +2,11 @@
 
 namespace Domain
 {
-    public class Fan
+    public class FAN : Usuario
     {
+        public FAN (string nome) : base(nome)
+        {
+            Nome = nome;
+        }
     }
 }
